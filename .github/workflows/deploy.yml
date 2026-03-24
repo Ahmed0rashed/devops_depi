@@ -13,6 +13,7 @@ jobs:
       - run: docker build -t ahmed0rashed0/react-test -f Dockerfile.dev .
       - run: docker run -e CI=true ahmed0rashed0/react-test npm run test
 
+
       # - run : docker build -t ahmedgamil/multi-client ./microservices/client 
       # - run : docker build -t ahmedgamil/multi-server ./microservices/server
       # - run : docker build -t ahmedgamil/multi-worker ./microservices/worker
